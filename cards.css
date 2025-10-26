@@ -1,0 +1,41 @@
+body {
+  margin: 20px;
+}
+
+div.card {
+  background-color: #999999;
+  border: 1px solid #e0e0e0;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 10px;
+  width: 50%;
+  align-tracks: center;
+
+}
+
+.card-title {
+  text-decoration: underline;
+  font-size: 2.2rem;
+  margin: 5px;
+}
+
+.card-links {
+  font-size: 26px;
+  width: fit-content;
+  position: relative;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  overflow: hidden;
+  margin: 3.5px;
+}
+
+.card-description {
+  float: right;
+  width: fit-content;
+  /*width: 80%;*/
+  margin-top: 1px;
+  font-size: 1rem;
+  color: #555;
+  overflow: hidden;
+}
